@@ -1,0 +1,13 @@
+title: Stunspot’s Guides
+description: The Advanced Knowledge Base Library — central gateway for public Stunspot’s Guide to… model-facing knowledge canons.
+baseurl: /stunspots-guides
+url: https://stunspot.github.io
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+permalink: pretty
+exclude:
+  - README.md
+  - manifest.json
+  - PLACEHOLDERS.md
