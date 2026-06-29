@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="wrap">
+        <a class="brand" href="{{ '/' | relative_url }}">Stunspot’s Guides</a>
+        <nav>
+          <a href="{{ '/catalog/' | relative_url }}">Catalog</a>
+          <a href="{{ '/how-to-use/' | relative_url }}">How to Use</a>
+          <a href="https://github.com/Stunspot/stunspots-guides">GitHub</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap content">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <p>Created by Sam “stunspot” Walker / Collaborative Dynamics. Gateway index for the public Stunspot Advanced Knowledge Base library.</p>
+      </div>
+    </footer>
+  </body>
+</html>
