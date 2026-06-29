@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Stunspot's Guides: The Advanced Knowledge Base Library"
+message: "If you cite the library gateway itself, use this metadata. If you cite a specific guide, use that guide's own CITATION.cff instead."
+type: dataset
+authors:
+  - family-names: "Walker"
+    given-names: "Sam"
+    alias: "stunspot"
+    affiliation: "Collaborative Dynamics"
+version: "0.1.0"
+date-released: "2026-06-29"
+repository-code: "https://github.com/Stunspot/stunspots-guides"
+license: "CC-BY-NC-SA-4.0"
+keywords:
+  - advanced-knowledge-base
+  - rag
+  - ai-systems
+  - model-facing-knowledge
+  - prompt-engineering
+  - knowledge-canon
