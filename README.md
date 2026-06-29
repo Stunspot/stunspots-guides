@@ -99,7 +99,7 @@ For most AI/RAG workflows, start with each guide’s **compiled packs**. They pr
 
 Use **by-report** when you need fine-grained retrieval, source isolation, or citation discipline.
 
-Use **omnibus** when your target system handles large single-file sources well, when you want archival simplicity, or when you are working in a long-context environment that benefits from global continuity.
+Use **omnibus** when your target system handles large single-file sources well, when you want archival simplicity, or when you are working in a long-context environment that benefits from global continuity. NotebookLM excels at such and can crosslink multiple domains at once with ease given the knowledge bases' regularities in construction. With its advanced knowledge graphing, they snap together like Lego. 
 
 ---
 
