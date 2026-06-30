@@ -1,32 +1,48 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{{ site.description }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- Social Preview / Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Stunspot’s Guides">
+  <meta property="og:title" content="Stunspot’s Guides">
+  <meta property="og:description" content="The Advanced Knowledge Base Library — central gateway for public Stunspot’s Guide to… model-facing knowledge canons.">
+  <meta property="og:url" content="https://stunspot.github.io/stunspots-guides/">
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Stunspot’s Guides">
+  <meta name="twitter:description" content="The Advanced Knowledge Base Library — central gateway for public Stunspot’s Guide to… model-facing knowledge canons.">
+</head>
+
+<body>
+  <div class="site-shell">
     <header class="site-header">
-      <div class="wrap">
-        <a class="brand" href="{{ '/' | relative_url }}">Stunspot’s Guides</a>
-        <nav>
-          <a href="{{ '/catalog/' | relative_url }}">Catalog</a>
-          <a href="{{ '/how-to-use/' | relative_url }}">How to Use</a>
-          <a href="https://github.com/Stunspot/stunspots-guides">GitHub</a>
-        </nav>
-      </div>
+      <a class="brand-mark" href="{{ '/' | relative_url }}">
+        <span class="brand-kicker">STUNSPOT</span>
+        <span class="brand-title">Stunspot’s Guides</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="{{ '/catalog.html' | relative_url }}">Catalog</a>
+        <a href="{{ '/how-to-use.html' | relative_url }}">How to Use</a>
+        <a href="https://github.com/Stunspot/stunspots-guides">GitHub</a>
+      </nav>
     </header>
 
-    <main class="wrap content">
+    <main class="content-panel">
       {{ content }}
     </main>
 
     <footer class="site-footer">
-      <div class="wrap">
-        <p>Created by Sam “stunspot” Walker / Collaborative Dynamics. Gateway index for the public Stunspot Advanced Knowledge Base library.</p>
-      </div>
+      <span>Stunspot’s Guides</span>
+      <span>The Advanced Knowledge Base Library</span>
     </footer>
-  </body>
+  </div>
+</body>
 </html>
