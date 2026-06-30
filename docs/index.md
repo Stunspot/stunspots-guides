@@ -44,8 +44,8 @@ Each guide usually includes:
 - public guidance and navigation under `docs/`
 - citation, license, status, changelog, and manifest files at the repository root
 
-## Current Placeholder
+## Pages
 
-This GitHub Pages site is the GitHub-native gateway. A normal-public landing page may later live at:
+This GitHub Pages site is the GitHub-native gateway. A normal-public landing page lives at:
 
-**TODO: https://stunspot.com/guides**
+**https://stunspot.com/#guides**
