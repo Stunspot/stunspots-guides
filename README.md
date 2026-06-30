@@ -117,20 +117,6 @@ Do not treat this gateway repo as the citation target for a specific guide unles
 
 ---
 
-## Placeholders to Resolve
-
-See [PLACEHOLDERS.md](./PLACEHOLDERS.md) for the current cleanup list.
-
-Current known placeholders:
-
-- Confirm whether this gateway should also live at **stunspot.com/guides**.
-- Enable GitHub Pages for this repo from `/docs` if desired.
-- Add final gateway brand images if this repo gets its own social/readme/pages hero set.
-- Decide whether the gateway repo needs its own DOI, or whether DOI/citation should remain only on the individual guides.
-- Add any private/new guides here after they become public.
-
----
-
 ## Authorship
 
 Created by **Sam “stunspot” Walker** and **Collaborative Dynamics**.
