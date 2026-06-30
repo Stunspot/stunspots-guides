@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./docs/assets/brand/readme-hero.png" alt="Stunspot’s Guides — The Advanced Knowledge Base Library. A central gateway for model-facing knowledge canons, AI/RAG systems, and long-context workspaces.">
+</p>
+
 # Stunspot’s Guides
 
 **The Advanced Knowledge Base Library**  
