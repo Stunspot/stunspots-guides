@@ -10,13 +10,12 @@
     "maintainer": "Sam \"stunspot\" Walker / Collaborative Dynamics",
     "repository": "https://github.com/Stunspot/stunspots-guides",
     "pages_url": "https://stunspot.github.io/stunspots-guides/",
-    "public_site_placeholder": "https://stunspot.com/guides",
-    "primary_audience": "AI/RAG systems, long-context workspaces, project knowledge bases, retrieval pipelines, agent memory layers, prompt engineers, and human operators using model-facing knowledge corpora."
+    "primary_audience": "AI/RAG systems, long-context workspaces, project knowledge bases, retrieval pipelines, agent memory layers, prompt engineers, and human operators using model-facing knowledge corpora.",
+    "license": "Creative Commons Attribution 4.0 International"
   },
   "directory_policy": {
     "docs": "Gateway navigation, GitHub Pages, and usage guidance.",
-    "manifest_json": "Machine-readable index of public guide repositories.",
-    "placeholders_md": "Known open items, URL decisions, and future cleanup notes."
+    "manifest_json": "Machine-readable index of public guide repositories."
   },
   "common_guide_directory_policy": {
     "docs": "Navigation, GitHub Pages metadata, and usage guidance. Individual source reports generally do not live here.",
@@ -25,133 +24,16 @@
     "knowledge-packs/omnibus": "Whole-corpus bundle for single-file import, archive, or long-context systems."
   },
   "guides": [
-    {
-      "slug": "ai-systems",
-      "title": "Stunspot’s Guide to AI Systems",
-      "subtitle": "The AI Engineering Systems Canon",
-      "description": "Operational doctrine for practical AI systems design: model steering, context architecture, RAG, agents, evals, governance, operations, and system doctrine.",
-      "repository_full_name": "Stunspot/stunspots-guide-to-ai-systems",
-      "github_url": "https://github.com/Stunspot/stunspots-guide-to-ai-systems",
-      "pages_url": "https://stunspot.github.io/stunspots-guide-to-ai-systems/",
-      "license": "CC BY-NC-SA 4.0",
-      "best_for": ["AI engineering", "prompt engineering", "RAG", "agents", "evals", "governance"]
-    },
-    {
-      "slug": "semantics-semiotics-and-symbols",
-      "title": "Stunspot’s Guide to Semantics, Semiotics, and Symbols",
-      "subtitle": "The Semantic-Semiotic Intelligence Canon",
-      "description": "A model-facing canon for representation, reference, signs, meaning, symbols, interpretation, grounding, semantic pathology, and assistant governance.",
-      "repository_full_name": "Stunspot/stunspots-guide-to-semantics-semiotics-and-symbols",
-      "github_url": "https://github.com/Stunspot/stunspots-guide-to-semantics-semiotics-and-symbols",
-      "pages_url": "https://stunspot.github.io/stunspots-guide-to-semantics-semiotics-and-symbols/",
-      "license": "CC BY-NC-SA 4.0",
-      "best_for": ["meaning", "reference", "semiotics", "assistant governance", "semantic hygiene"]
-    },
-    {
-      "slug": "macroeconomics",
-      "title": "Stunspot’s Guide to Macroeconomics",
-      "subtitle": "A model-facing macroeconomics canon for monetary systems, liquidity regimes, financial instability, and institutional strategy.",
-      "description": "Money, liquidity, credit, collateral, macro regimes, central banking, fiscal states, financial instability, and institutional macro strategy.",
-      "repository_full_name": "Stunspot/stunspots-guide-to-macroeconomics",
-      "github_url": "https://github.com/Stunspot/stunspots-guide-to-macroeconomics",
-      "pages_url": "https://stunspot.github.io/stunspots-guide-to-macroeconomics/",
-      "license": "CC BY-NC-SA 4.0",
-      "best_for": ["macroeconomics", "liquidity", "central banking", "financial systems", "regime analysis"]
-    },
-    {
-      "slug": "human-behavioral-neurobiology",
-      "title": "Stunspot’s Guide to Human Behavioral Neurobiology",
-      "subtitle": "The Cognitive Ecology of Adaptive Regulation",
-      "description": "A model-facing canon for interpreting human behavior as embodied, predictive, metabolically constrained, socially regulated, culturally patterned, and ecologically situated.",
-      "repository_full_name": "Stunspot/stunspots-guide-to-human-behavioral-neurobiology",
-      "github_url": "https://github.com/Stunspot/stunspots-guide-to-human-behavioral-neurobiology",
-      "pages_url": "https://stunspot.github.io/stunspots-guide-to-human-behavioral-neurobiology/",
-      "license": "CC BY-NC-SA 4.0",
-      "best_for": ["behavior", "neurobiology", "stress", "regulation", "human systems"]
-    },
-    {
-      "slug": "automotive-systems",
-      "title": "Stunspot’s Guide to Automotive Systems",
-      "subtitle": "The Automotive Systems Canon",
-      "description": "A model-facing automotive systems canon for vehicle reality modeling, machine physics, platform architecture, propulsion, chassis dynamics, diagnostics, lifecycle economics, safety regulation, and practitioner workflows.",
-      "repository_full_name": "Stunspot/stunspots-guide-to-automotive-systems",
-      "github_url": "https://github.com/Stunspot/stunspots-guide-to-automotive-systems",
-      "pages_url": "https://stunspot.github.io/stunspots-guide-to-automotive-systems/",
-      "license": "CC BY-NC-SA 4.0",
-      "best_for": ["vehicles", "diagnostics", "repair", "mechanical systems", "ownership economics"]
-    },
-    {
-      "slug": "business-venture-formulation",
-      "title": "Stunspot’s Guide to Business Venture Formulation",
-      "subtitle": "The Venture Formulation Canon",
-      "description": "A model-facing field manual for turning venture ideas into inspectable enterprise systems.",
-      "repository_full_name": "Stunspot/stunspots-guide-to-business-venture-formulation",
-      "github_url": "https://github.com/Stunspot/stunspots-guide-to-business-venture-formulation",
-      "pages_url": "https://stunspot.github.io/stunspots-guide-to-business-venture-formulation/",
-      "license": "CC BY-NC-SA 4.0",
-      "best_for": ["venture design", "business models", "market reasoning", "operations", "risk"]
-    },
-    {
-      "slug": "game-theory",
-      "title": "Stunspot’s Guide to Game Theory",
-      "subtitle": "The Strategic Systems Canon",
-      "description": "A model-facing strategic-systems canon for incentives, interdependence, equilibrium, institutional design, strategic failure, and long-run governance.",
-      "repository_full_name": "Stunspot/stunspots-guide-to-game-theory",
-      "github_url": "https://github.com/Stunspot/stunspots-guide-to-game-theory",
-      "pages_url": "https://stunspot.github.io/stunspots-guide-to-game-theory/",
-      "license": "CC BY-NC-SA 4.0",
-      "best_for": ["strategy", "incentives", "conflict", "cooperation", "governance"]
-    },
-    {
-      "slug": "gastronomic-engineering",
-      "title": "Stunspot’s Guide to Gastronomic Engineering",
-      "subtitle": "A practical canon for gastronomic engineering knowledge, reasoning, and AI/RAG use.",
-      "description": "A Markdown-native, model-facing knowledge canon for deterministic food physics, closed-loop culinary formulation, experimental protocols, and dietary constraint engineering.",
-      "repository_full_name": "Stunspot/stunspots-guide-to-gastronomic-engineering",
-      "github_url": "https://github.com/Stunspot/stunspots-guide-to-gastronomic-engineering",
-      "pages_url": "https://stunspot.github.io/stunspots-guide-to-gastronomic-engineering/",
-      "license": "CC BY-NC-SA 4.0",
-      "best_for": ["food physics", "culinary formulation", "dietary constraints", "recipe engineering", "experiments"]
-    },
-    {
-      "slug": "legal-mastery",
-      "title": "Stunspot’s Guide to Legal Mastery",
-      "subtitle": "The Legal Systems and Practice Architecture Canon",
-      "description": "A model-facing Markdown knowledge canon for legal systems reasoning and AI/RAG use.",
-      "repository_full_name": "Stunspot/stunspots-guide-to-legal-mastery",
-      "github_url": "https://github.com/Stunspot/stunspots-guide-to-legal-mastery",
-      "pages_url": "https://stunspot.github.io/stunspots-guide-to-legal-mastery/",
-      "license": "CC BY-NC-SA 4.0",
-      "best_for": ["legal reasoning", "procedure", "authority", "proof", "strategy"]
-    },
-    {
-      "slug": "sales-prospecting-strategy",
-      "title": "Stunspot’s Guide to Sales Prospecting Strategy",
-      "subtitle": "A model-facing canon for demand-signal architecture, buyer-system mapping, and AI/RAG prospecting reasoning.",
-      "description": "A model-facing Advanced Knowledge Base for sales prospecting strategy, demand-signal interpretation, buyer-system mapping, evidence discipline, outbound operations, CRM/RAG continuity, and GTM failure diagnosis.",
-      "repository_full_name": "Stunspot/stunspots-guide-to-sales-prospecting-strategy",
-      "github_url": "https://github.com/Stunspot/stunspots-guide-to-sales-prospecting-strategy",
-      "pages_url": "https://stunspot.github.io/stunspots-guide-to-sales-prospecting-strategy/",
-      "license": "CC BY-NC-SA 4.0",
-      "best_for": ["prospecting", "GTM", "buyer systems", "demand signals", "CRM/RAG"]
-    },
-    {
-      "slug": "investigative-news-intelligence",
-      "title": "Stunspot’s Guide to Investigative News Intelligence",
-      "subtitle": "A model-facing canon for investigative news intelligence, evidence reasoning, public-reality mapping, and AI/RAG use.",
-      "description": "A model-facing investigative news intelligence canon for evidence reasoning, public-reality mapping, source topology, narrative-operation analysis, and bounded inference under partial observability.",
-      "repository_full_name": "Stunspot/stunspots-guide-to-investigative-news-intelligence",
-      "github_url": "https://github.com/Stunspot/stunspots-guide-to-investigative-news-intelligence",
-      "pages_url": "https://stunspot.github.io/stunspots-guide-to-investigative-news-intelligence/",
-      "license": "CC BY-NC-SA 4.0",
-      "best_for": ["investigation", "evidence", "source reasoning", "public reality", "narrative analysis"]
-    }
-  ],
-  "known_placeholders": [
-    "Confirm whether the public website landing page should be https://stunspot.com/guides or another path.",
-    "Enable GitHub Pages for this gateway repo from /docs if desired.",
-    "Add gateway-specific brand images if the repo should receive README, Pages, and social-preview art.",
-    "Decide whether this gateway receives its own DOI or whether citation stays at the individual-guide level.",
-    "Add any future public guide repositories to this manifest and README."
+    {"slug":"ai-systems","title":"Stunspot’s Guide to AI Systems","repository_full_name":"Stunspot/stunspots-guide-to-ai-systems","github_url":"https://github.com/Stunspot/stunspots-guide-to-ai-systems","pages_url":"https://stunspot.github.io/stunspots-guide-to-ai-systems/","license":"Creative Commons Attribution 4.0 International"},
+    {"slug":"semantics-semiotics-and-symbols","title":"Stunspot’s Guide to Semantics, Semiotics, and Symbols","repository_full_name":"Stunspot/stunspots-guide-to-semantics-semiotics-and-symbols","github_url":"https://github.com/Stunspot/stunspots-guide-to-semantics-semiotics-and-symbols","pages_url":"https://stunspot.github.io/stunspots-guide-to-semantics-semiotics-and-symbols/","license":"Creative Commons Attribution 4.0 International"},
+    {"slug":"macroeconomics","title":"Stunspot’s Guide to Macroeconomics","repository_full_name":"Stunspot/stunspots-guide-to-macroeconomics","github_url":"https://github.com/Stunspot/stunspots-guide-to-macroeconomics","pages_url":"https://stunspot.github.io/stunspots-guide-to-macroeconomics/","license":"Creative Commons Attribution 4.0 International"},
+    {"slug":"human-behavioral-neurobiology","title":"Stunspot’s Guide to Human Behavioral Neurobiology","repository_full_name":"Stunspot/stunspots-guide-to-human-behavioral-neurobiology","github_url":"https://github.com/Stunspot/stunspots-guide-to-human-behavioral-neurobiology","pages_url":"https://stunspot.github.io/stunspots-guide-to-human-behavioral-neurobiology/","license":"Creative Commons Attribution 4.0 International"},
+    {"slug":"automotive-systems","title":"Stunspot’s Guide to Automotive Systems","repository_full_name":"Stunspot/stunspots-guide-to-automotive-systems","github_url":"https://github.com/Stunspot/stunspots-guide-to-automotive-systems","pages_url":"https://stunspot.github.io/stunspots-guide-to-automotive-systems/","license":"Creative Commons Attribution 4.0 International"},
+    {"slug":"business-venture-formulation","title":"Stunspot’s Guide to Business Venture Formulation","repository_full_name":"Stunspot/stunspots-guide-to-business-venture-formulation","github_url":"https://github.com/Stunspot/stunspots-guide-to-business-venture-formulation","pages_url":"https://stunspot.github.io/stunspots-guide-to-business-venture-formulation/","license":"Creative Commons Attribution 4.0 International"},
+    {"slug":"game-theory","title":"Stunspot’s Guide to Game Theory","repository_full_name":"Stunspot/stunspots-guide-to-game-theory","github_url":"https://github.com/Stunspot/stunspots-guide-to-game-theory","pages_url":"https://stunspot.github.io/stunspots-guide-to-game-theory/","license":"Creative Commons Attribution 4.0 International"},
+    {"slug":"gastronomic-engineering","title":"Stunspot’s Guide to Gastronomic Engineering","repository_full_name":"Stunspot/stunspots-guide-to-gastronomic-engineering","github_url":"https://github.com/Stunspot/stunspots-guide-to-gastronomic-engineering","pages_url":"https://stunspot.github.io/stunspots-guide-to-gastronomic-engineering/","license":"Creative Commons Attribution 4.0 International"},
+    {"slug":"legal-mastery","title":"Stunspot’s Guide to Legal Mastery","repository_full_name":"Stunspot/stunspots-guide-to-legal-mastery","github_url":"https://github.com/Stunspot/stunspots-guide-to-legal-mastery","pages_url":"https://stunspot.github.io/stunspots-guide-to-legal-mastery/","license":"Creative Commons Attribution 4.0 International"},
+    {"slug":"sales-prospecting-strategy","title":"Stunspot’s Guide to Sales Prospecting Strategy","repository_full_name":"Stunspot/stunspots-guide-to-sales-prospecting-strategy","github_url":"https://github.com/Stunspot/stunspots-guide-to-sales-prospecting-strategy","pages_url":"https://stunspot.github.io/stunspots-guide-to-sales-prospecting-strategy/","license":"Creative Commons Attribution 4.0 International"},
+    {"slug":"investigative-news-intelligence","title":"Stunspot’s Guide to Investigative News Intelligence","repository_full_name":"Stunspot/stunspots-guide-to-investigative-news-intelligence","github_url":"https://github.com/Stunspot/stunspots-guide-to-investigative-news-intelligence","pages_url":"https://stunspot.github.io/stunspots-guide-to-investigative-news-intelligence/","license":"Creative Commons Attribution 4.0 International"}
   ]
 }
