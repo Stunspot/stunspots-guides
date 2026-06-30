@@ -10,7 +10,7 @@
 ![Status](https://img.shields.io/badge/status-first_pass_catalog-darkgreen)
 ![Guides](https://img.shields.io/badge/guides-11-blue)
 ![Audience](https://img.shields.io/badge/audience-AI%2FRAG_systems-blueviolet)
-![License](https://img.shields.io/badge/license-see_individual_repos-darkgrey)
+![License: CC BY 4.0](https://img.shields.io/badge/license-CC_BY_4.0-darkgrey)
 
 This repository is the canonical GitHub index for the public **Stunspot’s Guide to…** Advanced Knowledge Base series.
 
@@ -26,7 +26,7 @@ Use this gateway to find the right canon, jump into its GitHub repository, open 
 - [How to Use These Guides](./docs/how-to-use.md)
 - [Machine-readable manifest](./manifest.json)
 - Gateway Pages site, once enabled: **https://stunspot.github.io/stunspots-guides/**
-- Public website landing page placeholder: **TODO: https://stunspot.com/guides**
+- Public website landing page: **https://stunspot.com/#guides**
 
 ---
 
