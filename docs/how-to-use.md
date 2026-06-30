@@ -119,8 +119,6 @@ Use Stunspot’s Guide to Semantics, Semiotics, and Symbols as the semantic hygi
 When the two guides overlap, treat AI Systems as the engineering layer and Semantics/Semiotics as the meaning-governance layer.
 ```
 
-## Placeholder
+A public website landing page lives at:
 
-A public website landing page may later live at:
-
-**TODO: https://stunspot.com/guides**
+**https://stunspot.com/#guides**
