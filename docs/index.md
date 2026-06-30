@@ -16,11 +16,6 @@ These guides are Markdown-native knowledge repositories built for AI/RAG ingesti
 
 Human readers can browse them like field manuals. Their deeper purpose is to make models better at domain reasoning by giving them structured doctrine, stable vocabulary, conceptual maps, failure diagnostics, and operational heuristics.
 
-<div class="cta-row">
-  <a class="button" href="./catalog.html">Browse the Catalog</a>
-  <a class="button secondary" href="./how-to-use.html">How to Use the Guides</a>
-</div>
-
 ## Library Map
 
 | Domain | Start Here |
