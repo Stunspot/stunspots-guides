@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Catalog
+permalink: /catalog/
 ---
 
 # Catalog
