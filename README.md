@@ -20,6 +20,10 @@ Use this gateway to find the right canon, jump into its GitHub repository, open 
 
 ---
 
+**Tl;Dr Quickstart**: Pick a subject. Download the 3-5 compiled packs. Upload to Project files/bot knowledge/paste in chat. Talk to the model about the topic. The Aristocrats.
+
+---
+
 ## Start Here
 
 - [Catalog](./docs/catalog.md)
