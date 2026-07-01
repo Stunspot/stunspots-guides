@@ -1,6 +1,7 @@
 ---
 layout: default
 title: How to Use These Guides
+permalink: /how-to-use/
 ---
 
 # How to Use These Guides
@@ -21,7 +22,7 @@ Use them as:
 
 ### 1. Pick the right canon
 
-Start from the [Catalog](./catalog.html). Choose the guide whose domain matches the task.
+Start from the [Catalog]({{ '/catalog/' | relative_url }}). Choose the guide whose domain matches the task.
 
 For cross-domain problems, combine guides deliberately. For example:
 
